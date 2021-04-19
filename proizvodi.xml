@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Proizvodi>
+    <Proizvod>
+        <Kategorija>Laptop</Kategorija>
+        <Cena valuta="RSD">38.990</Cena>
+        <TekstOglasa>
+            Acer Laptop Aspire NX.HE8EX.00C 15,6
+                Dijagonala ekrana: 15,6" HD
+                RAM memorija: 4 GB DDR4
+                Hard disk: 256 GB SSD
+                Procesor: AMD A4-9120e Dual Core
+                Grafička kartica: AMD Radeon R3
+                Operativni sistem: Endless        
+        </TekstOglasa>
+        <Oznaka>
+            Laptop, Acer, AMD Radeon R3, EndlessOS, AMD A4-9120e Dual Core, NOT16033, Acer Aspire NX.HE8EX.00C, Aspire NX.HE8EX.00C, NX.HE8EX.00C</Oznaka>
+        <Akcije>
+            <Akcija1 cena="29.990" datumIsteka="2021-6-16"></Akcija1>
+            <Akcija2 cena="36.990" datumIsteka="2021-12-25"></Akcija2>
+            <Akcija3 cena="32.990" datumIsteka="2021-8-18"></Akcija3>
+        </Akcije>
+    </Proizvod>
+    <Proizvod>
+        <Kategorija>Slušalice</Kategorija>
+        <Cena valuta="RSD">2.990</Cena>
+        <TekstOglasa>
+            Slušalice sa mikrofonom Ovleng GT98 Army - Maskirne
+                Izuzetne gejmerske slušalice u maskirnom dezenu
+                Poseduju intergisan mikrofon na slušalici
+                Frekventni opseg: 20 Hz do 20000 Hz
+                Osetljivost slušalica od 110 dB
+                Udobni i mekani zvučnici prečnika 50 mm
+        </TekstOglasa>
+        <Oznaka>Ovleng, Slušalice sa mikrofon, USB, 3.5mm, Mikrofon, Gaming, 2m, žičane, GT98, GT98 Army</Oznaka>
+        <Akcije>
+            <Akcija1 cena="1.499" datumIsteka="2021-6-16"></Akcija1>
+            <Akcija2 cena="1.990" datumIsteka="2021-11-1"></Akcija2>
+        </Akcije>
+    </Proizvod>
+    <Proizvod>
+        <Kategorija>Monitor</Kategorija>
+        <Cena valuta="RSD">24.990</Cena>
+        <TekstOglasa>
+            Monitor 24" Dell S2421HGF, 1920 x 1080 px, 1 ms
+                Moćan gaming monitor sa vremenom odziva od samo 1 ms
+                IPS tehnologija sa maksimalnom rezolucijom od 1920 x 1080 px
+                Podešavanje visine monitora do 100 mm
+                Nagib od -5° do 21°
+        </TekstOglasa>
+        <Oznaka>Dell, 24", Monitor, 1920x1080px, 1ms, IPS, 100mm, S2421HGF</Oznaka>
+        <Akcije>
+            
+        </Akcije>
+    </Proizvod>
+</Proizvodi>
