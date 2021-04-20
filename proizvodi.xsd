@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="Proizvodi">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" ref="Proizvod"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="Proizvod">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="Kategorija"/>
+            <xs:element ref="Cena"/>
+            <xs:element ref="TekstOglasa"/>
+            <xs:element ref="Oznake"/>
+            <xs:element ref="Akcije"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="Kategorija" type="xs:NCName"/>
+<xs:element name="Cena" type="xs:nonNegativeInteger">
+    <xs:complexType>
+        <xs:simpleContent>
+            <xs:extension base="xs:decimal">
+                <xs:attribute name="valuta" use="required" type="xs:NCName" default="RSD"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:element>
+<xs:element name="TekstOglasa" type="xs:string">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:minLength value="10"/>
+            <xs:maxLength value="180"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+<xs:element name="Oznake">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="5" ref="Oznaka"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="Oznaka" type="xs:string"/>
+<xs:element name="Akcije">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:sequence minOccurs="0">
+                <xs:element ref="Akcija1"/>
+                <xs:element ref="Akcija2"/>
+            </xs:sequence>
+            <xs:element minOccurs="0" ref="Akcija3"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="Akcija1">
+    <xs:complexType>
+        <xs:attribute name="cena" use="required" type="xs:decimal"/>
+        <xs:attribute name="datumIsteka" use="required" type="xs:date"/>
+    </xs:complexType>
+</xs:element>
+<xs:element name="Akcija2">
+    <xs:complexType>
+        <xs:attribute name="cena" use="required" type="xs:decimal"/>
+        <xs:attribute name="datumIsteka" use="required" type="xs:date"/>
+    </xs:complexType>
+</xs:element>
+<xs:element name="Akcija3">
+    <xs:complexType>
+        <xs:attribute name="cena" use="required" type="xs:decimal"/>
+        <xs:attribute name="datumIsteka" use="required" type="xs:date"/>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
