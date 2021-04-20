@@ -1,0 +1,52 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Proizvodi (Proizvod)+>
+<!ATTLIST Proizvodi
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Proizvod (Kategorija,Cena,TekstOglasa,Oznake,Akcije)>
+<!ATTLIST Proizvod
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Kategorija (#PCDATA)>
+<!ATTLIST Kategorija
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Cena (#PCDATA)>
+<!ATTLIST Cena
+  xmlns CDATA #FIXED ''
+  valuta NMTOKEN #REQUIRED>
+
+<!ELEMENT TekstOglasa (#PCDATA)>
+<!ATTLIST TekstOglasa
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Oznake (Oznaka)+>
+<!ATTLIST Oznake
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Akcije ((Akcija1,Akcija2)?,Akcija3?)>
+<!ATTLIST Akcije
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Oznaka (#PCDATA)>
+<!ATTLIST Oznaka
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Akcija1 EMPTY>
+<!ATTLIST Akcija1
+  xmlns CDATA #FIXED ''
+  cena CDATA #REQUIRED
+  datumIsteka NMTOKEN #REQUIRED>
+
+<!ELEMENT Akcija2 EMPTY>
+<!ATTLIST Akcija2
+  xmlns CDATA #FIXED ''
+  cena CDATA #REQUIRED
+  datumIsteka NMTOKEN #REQUIRED>
+
+<!ELEMENT Akcija3 EMPTY>
+<!ATTLIST Akcija3
+  xmlns CDATA #FIXED ''
+  cena CDATA #REQUIRED
+  datumIsteka NMTOKEN #REQUIRED>
