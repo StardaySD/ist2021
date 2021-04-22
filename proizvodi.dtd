@@ -1,6 +1,6 @@
 <?xml encoding="UTF-8"?>
 
-<!ELEMENT Proizvodi (Proizvod)+>
+<!ELEMENT Proizvodi (Proizvod)+> 
 <!ATTLIST Proizvodi
   xmlns CDATA #FIXED ''>
 
