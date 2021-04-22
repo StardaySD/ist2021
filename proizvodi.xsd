@@ -18,7 +18,15 @@
         </xs:sequence>
     </xs:complexType>
 </xs:element>
-<xs:element name="Kategorija" type="xs:NCName"/>
+<xs:element name="Kategorija" type="xs:NCName">
+    <xs:simpleType>
+        <xs:restriction base=“xs:string">
+          <xs:enumeration value="Laptop"/> 
+          <xs:enumeration value="Monitor"/> 
+          <xs:enumeration value="Slušalice"/> 
+        </xs:restriction>
+     </xs:simpleType>
+ </xs:element> 
 <xs:element name="Cena" type="xs:nonNegativeInteger">
     <xs:complexType>
         <xs:simpleContent>
