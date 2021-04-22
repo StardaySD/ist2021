@@ -2,19 +2,19 @@
 
 <Proizvodi>
     <Proizvod>
-        <Kategorija>Laptop</Kategorija>
-        <Cena valuta="RSD">38.990</Cena>
+        <Kategorija> Laptop </Kategorija>
+        <Cena valuta="RSD"> 38.990 </Cena>
         <TekstOglasa>
             Acer Laptop Aspire NX.HE8EX.00C 15,6
                 Dijagonala ekrana: 15,6" HD
                 RAM memorija: 4 GB DDR4
         </TekstOglasa>
         <Oznake>
-            <Oznaka>Laptop</Oznaka>
-            <Oznaka>Acer</Oznaka>
-            <Oznaka>AMD Radeon R3</Oznaka>
-            <Oznaka>EndlessOS</Oznaka>
-            <Oznaka>AMD A4-9120e Dual Core</Oznaka>
+            <Oznaka> Laptop </Oznaka>
+            <Oznaka> Acer </Oznaka>
+            <Oznaka> AMD Radeon R3 </Oznaka>
+            <Oznaka> EndlessOS </Oznaka>
+            <Oznaka> AMD A4-9120e Dual Core </Oznaka>
         </Oznake>
         <Akcije>
             <Akcija1 cena="29.990" datumIsteka="2021-6-16"/>
@@ -23,18 +23,18 @@
         </Akcije>
     </Proizvod>
     <Proizvod>
-        <Kategorija>Slušalice</Kategorija>
-        <Cena valuta="RSD">2.990</Cena>
+        <Kategorija> Slušalice </Kategorija>
+        <Cena valuta="RSD"> 2.990 </Cena>
         <TekstOglasa>
             Slušalice sa mikrofonom Ovleng GT98 Army - Maskirne
                 Izuzetne gejmerske slušalice u maskirnom dezenu
         </TekstOglasa>
         <Oznake>
-            <Oznaka>Ovleng</Oznaka>
-            <Oznaka>Slušalice sa mikrofon</Oznaka>
-            <Oznaka>USB</Oznaka>
-            <Oznaka>3.5mm</Oznaka>
-            <Oznaka>Mikrofon</Oznaka>
+            <Oznaka> Ovleng</Oznaka>
+            <Oznaka> Slušalice sa mikrofon </Oznaka>
+            <Oznaka> USB </Oznaka>
+            <Oznaka> 3.5mm </Oznaka>
+            <Oznaka> Mikrofon </Oznaka>
         </Oznake>
         <Akcije>
             <Akcija1 cena="1.499" datumIsteka="2021-6-16"/>
@@ -42,21 +42,20 @@
         </Akcije>
     </Proizvod>
     <Proizvod>
-        <Kategorija>Monitor</Kategorija>
-        <Cena valuta="RSD">24.990</Cena>
+        <Kategorija> Monitor </Kategorija>
+        <Cena valuta="RSD"> 24.990 </Cena>
         <TekstOglasa>
             Monitor 24" Dell S2421HGF, 1920 x 1080 px, 1 ms
             Moćan gaming monitor sa vremenom odziva od samo 1 ms
         </TekstOglasa>
         <Oznake>
-            <Oznaka>Dell</Oznaka>
-            <Oznaka> 24"</Oznaka>
-            <Oznaka>Monitor</Oznaka>
-            <Oznaka> 1920x1080px</Oznaka>
+            <Oznaka> Dell </Oznaka>
+            <Oznaka> 24" </Oznaka>
+            <Oznaka> Monitor </Oznaka>
+            <Oznaka> 1920x1080px </Oznaka>
         </Oznake>
         <Akcije>
             
         </Akcije>
     </Proizvod>
 </Proizvodi>
-
