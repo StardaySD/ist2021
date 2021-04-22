@@ -18,25 +18,25 @@
         </xs:sequence>
     </xs:complexType>
 </xs:element>
-<xs:element name="Kategorija" type="xs:NCName">
+<xs:element name="Kategorija">
     <xs:simpleType>
-        <xs:restriction base=“xs:string">
-          <xs:enumeration value="Laptop"/> 
-          <xs:enumeration value="Monitor"/> 
-          <xs:enumeration value="Slušalice"/> 
+        <xs:restriction base="xs:string">  
+            <xs:enumeration value="Laptop"/>  
+            <xs:enumeration value="Slušalice"/>
+            <xs:enumeration value="Monitor"/> 
         </xs:restriction>
-     </xs:simpleType>
- </xs:element> 
-<xs:element name="Cena" type="xs:nonNegativeInteger">
+    </xs:simpleType>
+</xs:element>
+<xs:element name="Cena">
     <xs:complexType>
         <xs:simpleContent>
-            <xs:extension base="xs:decimal">
-                <xs:attribute name="valuta" use="required" type="xs:NCName" default="RSD"/>
+            <xs:extension base="xs:nonNegativeInteger">
+                <xs:attribute name="valuta" use="optional" type="xs:NCName" default="RSD"/>
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
 </xs:element>
-<xs:element name="TekstOglasa" type="xs:string">
+<xs:element name="TekstOglasa">
     <xs:simpleType>
         <xs:restriction base="xs:string">
             <xs:minLength value="10"/>
