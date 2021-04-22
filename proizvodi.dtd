@@ -15,7 +15,7 @@
 <!ELEMENT Cena (#PCDATA)>
 <!ATTLIST Cena
   xmlns CDATA #FIXED ''
-  valuta NMTOKEN #REQUIRED>
+  valuta NMTOKEN RSD>
 
 <!ELEMENT TekstOglasa (#PCDATA)>
 <!ATTLIST TekstOglasa
